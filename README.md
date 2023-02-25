@@ -5,7 +5,7 @@ boot loader, services,
 linux distribution = linux kernel + tools
 
 
-## chapter 3
+## Chapter 3
 
 BIOS -> -> boot loder -> kernal and initial RAMS ->  
 
@@ -119,3 +119,27 @@ dpkg --remove foo
 dpkg --list 
 dpkg --listfiles foo   // list pkg info
 dpkg --search file   // what pkg is file part of?
+
+
+##  Chapter 8. Finding Linux Documentation
+
+### man pages
+
+man -f <topic> | (whatis <topic>)    ||    list the all the pages with the name
+
+man -a <top>    || display all pages in succession 
+
+man -k <topic> | (apropos <top>)    ||    search in the description
+
+man -K <top>    ||    search in whole page
+
+man n <top>   ||    open specific chapter number
+
+
+### other system
+
+info <top/command>    ||    have linked pages
+
+<top/command> --help    ||    short and quick description, mostly about flags
+
+help <top>    ||    for some builtin commands
