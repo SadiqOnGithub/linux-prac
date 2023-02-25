@@ -7,7 +7,7 @@ linux distribution = linux kernel + tools
 
 ## Chapter 3
 
-BIOS -> -> boot loder -> kernal and initial RAMS ->  
+BIOS -> -> boot loader -> kernel and initial RAMS ->  
 
 /sbin/init  => /lib/systemd/systemd
 
@@ -143,3 +143,10 @@ info <top/command>    ||    have linked pages
 <top/command> --help    ||    short and quick description, mostly about flags
 
 help <top>    ||    for some builtin commands
+
+
+## Chapter 9. Processes  // pending
+
+https://youtu.be/sWbUDq4S6Y8?t=13027
+
+many interesting stuff is waiting for come back here after creating full home page of website
