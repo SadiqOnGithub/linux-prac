@@ -15,6 +15,10 @@ sudo swapoff -a
 sudo swapon /dev/nvme0n1p1
 
 
+# you have to edit fstab file to make swap persist on reboot
+sudo vi /etc/fstab
+
+
 
 # Remove the swapfile to free up disk space (optional)
 sudo rm /swapfile
