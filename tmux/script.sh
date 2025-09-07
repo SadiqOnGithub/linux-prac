@@ -7,4 +7,7 @@ tmux list-keys -N  | grep session
 
 # find cmd associated with a key
 list-keys <key>
-pre + /
+C-Space + /
+
+C-Space $       # Rename current session
+C-Space ,       # Rename current window
