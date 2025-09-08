@@ -26,7 +26,8 @@ az vm show -g my-rg -n my-vm
 
 # Start / Stop / Restart a VM
 az vm start -g my-rg -n my-vm
-az vm deallocate -g my-rg -n my-vm
+az vm stop -g my-rg -n my-vm        # Stop the VM but charging
+az vm deallocate -g my-rg -n my-vm  # no money charged
 az vm restart -g my-rg -n my-vm
 
 # SSH into VM (shortcut)
