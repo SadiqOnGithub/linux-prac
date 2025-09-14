@@ -20,3 +20,18 @@ git log -S "search_text" --oneline -p # follow content changes
 git log -S "search_text" --oneline -p git_test.txt # follow changes in file
 
 git log -G "regex_pattern" --oneline  # Using regex
+
+
+
+
+
+
+
+# =============================
+# config
+# =============================
+
+git config --list
+git config --global --list
+
+git config --global --unset <property_name>
