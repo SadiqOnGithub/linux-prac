@@ -45,3 +45,5 @@ git branch --merged
 git feteh --prune
 git pull --prune
 git push origin --delete xyz-branch
+
+# origin vs upstream in forking
