@@ -31,6 +31,7 @@ git bisect bad      # OR git bisect bad <commit-hash>
 git bisect good commit-hash
 
 run tests
+$?      # check the error code of last cmd
 git bisect good/bad
 
 git bisect log
