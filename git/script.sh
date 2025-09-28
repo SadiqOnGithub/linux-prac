@@ -28,3 +28,6 @@ git checkout HEAD^^^^^^
 
 # moves (by force) the main branch to three parents behind HEAD.
 git branch -f main HEAD^^^
+
+# chaining modifiers
+git checkout HEAD~^2~2
