@@ -50,3 +50,6 @@ git push origin HEAD:master                          # push current HEAD to remo
 git push origin master:refs/heads/experimental       # push master to experimental branch (full ref syntax)
 git push origin :experimental                        # delete remote experimental branch (warning: irreversible)
 git push origin +dev:master                          # force push dev branch to remote master
+
+# almost same functionality exists for fetch
+git fetch origin :new-branch                         # create local new-branch
