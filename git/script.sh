@@ -40,3 +40,13 @@ git checkout -b new-branch origin/main
 git branch -u origin/new-branch new-branch
 # if you already checked out the branch then no need to specify branch name
 git branch -u origin/new-branch
+
+
+# git push read more
+git push origin foo^:main
+
+git push mothership master:satellite/master dev:satellite/dev
+git push origin HEAD:master
+git push origin master:refs/heads/experimental
+git push origin :experimental # warning: deleting branch 'experimental' is irreversible
+git push origin +dev:master
