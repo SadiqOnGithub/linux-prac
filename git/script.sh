@@ -53,3 +53,7 @@ git push origin +dev:master                          # force push dev branch to 
 
 # almost same functionality exists for fetch
 git fetch origin :new-branch                         # create local new-branch
+
+
+# Move some parts of some files to the staging area with the --patch flag:
+git add -p  # y or n
