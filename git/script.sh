@@ -35,18 +35,18 @@ git checkout HEAD~^2~2                               # complex navigation exampl
 
 
 # create new branch with remote tracking
-git checkout -b new-branch origin/main
+git checkout -b new-branch origin/main               # create and switch to new branch tracking origin/main
 # another way for doing same
-git branch -u origin/new-branch new-branch
+git branch -u origin/new-branch new-branch          # set upstream tracking for existing branch
 # if you already checked out the branch then no need to specify branch name
-git branch -u origin/new-branch
+git branch -u origin/new-branch                     # set upstream for current branch
 
 
 # git push read more
-git push origin foo^:main
+git push origin foo^:main                            # push parent of foo to remote main branch
 
-git push mothership master:satellite/master dev:satellite/dev
-git push origin HEAD:master
-git push origin master:refs/heads/experimental
-git push origin :experimental # warning: deleting branch 'experimental' is irreversible
-git push origin +dev:master
+git push mothership master:satellite/master dev:satellite/dev  # push multiple branches to different remote refs
+git push origin HEAD:master                          # push current HEAD to remote master branch
+git push origin master:refs/heads/experimental       # push master to experimental branch (full ref syntax)
+git push origin :experimental                        # delete remote experimental branch (warning: irreversible)
+git push origin +dev:master                          # force push dev branch to remote master
