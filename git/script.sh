@@ -57,3 +57,14 @@ git fetch origin :new-branch                         # create local new-branch
 
 # Move some parts of some files to the staging area with the --patch flag:
 git add -p  # y or n
+
+# git diff is more powerful than git status???
+git diff
+git diff --cached/--staged
+git diff HEAD
+
+git diff --color-words
+git diff -W     # See only which function changed
+
+git diff main test -- path/to/file.js # Diff for a single file
+# More Here: https://githubtraining.github.io/training-manual/#/17_view_local_changes
