@@ -33,6 +33,9 @@ git branch -f main HEAD^^^                           # force move branch pointer
 # chaining modifiers
 git checkout HEAD~^2~2                               # complex navigation example
 
+# both are same
+git checkout HEAD^
+git checkout HEAD~
 
 # create new branch with remote tracking
 git checkout -b new-branch origin/main               # create and switch to new branch tracking origin/main
