@@ -36,6 +36,7 @@ git checkout HEAD~^2~2                               # complex navigation exampl
 # both are same
 git checkout HEAD^
 git checkout HEAD~
+git RH HEAD@{21}
 
 # create new branch with remote tracking
 git checkout -b new-branch origin/main               # create and switch to new branch tracking origin/main
