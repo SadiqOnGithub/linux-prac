@@ -6,3 +6,12 @@ az login --use-device-code
 
 # Login with a Service Principal (automation / CI/CD)
 az login --service-principal -u <APP_ID> -p <PASSWORD> -t <TENANT_ID>
+
+# List accounts
+az account list
+
+# List all subscriptions
+az account list --all
+
+# Set default account
+az account set --subscription <SUBSCRIPTION_ID>
