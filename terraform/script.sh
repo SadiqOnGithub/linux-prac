@@ -3,6 +3,13 @@
 # Sets up backend (Terraform Cloud)
 terraform init
 
+
+terraform fmt
+terraform fmt -diff
+terraform fmt -recursive
+
+terraform validate
+
 # Shows what changes will be made
 # Safe to run anytime
 # Use -out planfile to save for apply
