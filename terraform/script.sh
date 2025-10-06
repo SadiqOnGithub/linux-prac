@@ -1,3 +1,7 @@
+
+# Install autocomplete
+terraform -install-autocomplete
+
 # First command to run in any Terraform project
 # Downloads providers/modules
 # Sets up backend (Terraform Cloud)
