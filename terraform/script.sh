@@ -36,7 +36,8 @@ terraform state show aws_instance.web  # Show specific resource
 terraform state pull > state.json  # Download state for inspection
 
 
-
+terraform output
+terraform output resource_group_id
 
 
 # ==========================
