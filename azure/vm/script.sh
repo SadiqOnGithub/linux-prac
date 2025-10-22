@@ -21,6 +21,9 @@ az vm create \
 # List all VMs in a resource group
 az vm list -g my-rg -o table
 
+# get ids of all VM
+az vm list --query "[].{Name:name, ID:id, ResourceGroup:resourceGroup}" --output yamlc
+
 # Show details of a VM
 az vm show -g my-rg -n my-vm
 
