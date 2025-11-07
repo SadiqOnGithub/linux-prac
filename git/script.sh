@@ -1,8 +1,13 @@
 #!/bin/bash
 
+# rescue: forgot to add user.name and user.email before commit
+git config --global --edit
+git commit --amend --reset-author
+
 # =============================
 # general cmds
 # =============================
+
 
 git config --list                                    # list all config settings
 git config --global --list                           # list global config only
