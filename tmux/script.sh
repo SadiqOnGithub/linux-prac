@@ -1,3 +1,9 @@
+# tmux cli
+
+# create new session with name
+tmux new -s session_name -c "$PWD"
+
+# inside cli
 # create new session inside a new session
 :new-session -s mysession
 
