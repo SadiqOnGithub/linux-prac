@@ -77,3 +77,9 @@ git diff -W     # See only which function changed
 
 git diff main test -- path/to/file.js # Diff for a single file
 # More Here: https://githubtraining.github.io/training-manual/#/17_view_local_changes
+
+
+
+
+# how behind your branch is?
+git rev-list --left-right --count HEAD...origin/main
